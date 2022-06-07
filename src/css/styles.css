@@ -54,6 +54,7 @@
   margin-top: -50px;
   background-color: #fff;
   padding: 50px;
+  text-align: center;
 }
 .cards img {
   width: 100px;
@@ -76,4 +77,84 @@
 }
 .valuebalance p {
   margin: 10px;
+}
+.plans h2 {
+  font-size: 12pt;
+}
+.plans h3 {
+  margin: 10px;
+  color: silver;
+}
+.plans a {
+  padding: 10px;
+  background-color: orange;
+  color: #fff;
+  border-radius: 10pt;
+  margin-top: 50px;
+  display: block;
+  text-decoration: none;
+}
+.waitlist div {
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin-top: -100px;
+  box-shadow: 0px 0px 4px silver;
+  padding: 8px;
+  text-align: center;
+  margin-left: 30%;
+}
+.waitlist div img {
+  width: 90%;
+  height: auto;
+}
+.waitlist input {
+  padding: 10px;
+  background-color: silver;
+  border-radius: 10px;
+  margin-top: 50px;
+  border: 0px;
+  margin-bottom: 30px;
+}
+.waitlist a {
+  padding: 10px;
+  font-size: 10pt;
+  background-color: #fa3f6c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  display: block;
+  width: 90%;
+  margin-left: 10px;
+}
+.waitlist p {
+  display: flex;
+  flex-direction: row;
+  font-size: 13pt;
+  margin-right: 10px;
+}
+.linha {
+  padding-top: 60px;
+}
+.login {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 1000;
+  width: 200vh;
+  height: 150vh;
+  text-align: center;
+  padding-top: 100px;
+}
+.login input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.login button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
 }
